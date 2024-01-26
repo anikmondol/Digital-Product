@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hello{
+    color: rgb(135, 99, 178);
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"),auto;
+}
+.hello:hover{
+    color: aquamarine;
+}
+
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 120px;
+}
+
+.box-2{
+    background-color: green;
+}
+.box-3{
+    background-color: blue;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
